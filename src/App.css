@@ -1,38 +1,110 @@
-.App {
+header{
+  margin: 40px;
+  text-align: center;
+  color: #191919;
+}
+
+.heading{
+  font-size: 32px;
+}
+
+.subheading{
+  font-size: 18px;
+}
+
+.joke-section{
+  max-width: 800px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid #707A96;
+  border-radius: 5px;
+  margin: 50px auto;
+}
+
+.joke{
+  font-size: 18px;
+}
+
+.counter{
+  max-width: 900px;
+  margin: auto;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.counter textarea{
+  width: 90%;
+  height: 250px;
+  padding: 15px;
+  font-size: 18px;
+  box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  resize: none;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.counter .clear{
+  background-color: #BC4242;
+  border: none;
+  width: 150px;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-size: 16px;
   color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.counter .counts{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 10px; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.counter span{
+  background-color: #1F4690;
+  color: #ffffff;
+  border: none;
+  width: 180px;
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 5px;
+}
+
+.counter button:disabled{
+  cursor: not-allowed;
+  background-color: #858585;
+}
+
+
+.pagenotfound{
+  padding: 50px 10px;
+}
+
+.pagenotfound img{
+  max-width: 100%;
+}
+
+.content{
+  max-width: 350px;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  margin: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.content p{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.content button{
+  background-color: #1F4690;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
 }
